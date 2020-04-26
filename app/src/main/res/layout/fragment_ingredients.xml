@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_ingredients"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/mascarponeCheck"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:onClick="ingredientsClicked"
+        android:text="@string/mascarpone_cheese_n_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mozzarellaCheck" />
+
+    <CheckBox
+        android:id="@+id/hamCheck"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:onClick="ingredientsClicked"
+        android:text="@string/royal_ham_n_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredientsText" />
+
+    <CheckBox
+        android:id="@+id/bavarianCheck"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="ingredientsClicked"
+        android:text="@string/bavarian_salami_n_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hamCheck"
+        app:layout_constraintTop_toBottomOf="@+id/ingredientsText" />
+
+    <TextView
+        android:id="@+id/ingredientsText"
+        android:layout_width="127dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/ingredients"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/baconCheck"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="ingredientsClicked"
+        android:text="@string/bacon_n_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tomatoesCheck"
+        app:layout_constraintTop_toBottomOf="@+id/bavarianCheck" />
+
+    <CheckBox
+        android:id="@+id/champCheck"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="ingredientsClicked"
+        android:text="@string/champignons_n_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mascarponeCheck"
+        app:layout_constraintTop_toBottomOf="@+id/pepperoniCheck" />
+
+    <CheckBox
+        android:id="@+id/tomatoesCheck"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:onClick="ingredientsClicked"
+        android:text="@string/fresh_tomatoes_n_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hamCheck" />
+
+    <CheckBox
+        android:id="@+id/mozzarellaCheck"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:onClick="ingredientsClicked"
+        android:text="@string/mozzarella_cheese_n_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tomatoesCheck" />
+
+    <CheckBox
+        android:id="@+id/pepperoniCheck"
+        android:layout_width="175dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="ingredientsClicked"
+        android:text="@string/pickled_pepperoni_n_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mozzarellaCheck"
+        app:layout_constraintTop_toBottomOf="@+id/baconCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

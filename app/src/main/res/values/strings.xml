@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">lab1_pizza</string>
+    <string name="mozzarella_cheese_n_1">Mozzarella cheese \n 1$</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="fresh_tomatoes_n_1">Fresh tomatoes \n 1$</string>
+    <string name="royal_ham_n_2">Royal ham \n 2$</string>
+    <string name="mascarpone_cheese_n_1">Mascarpone cheese \n 1$</string>
+    <string name="bavarian_salami_n_1">Bavarian Salami \n 1$</string>
+    <string name="bacon_n_1">Bacon \n 1$</string>
+    <string name="pickled_pepperoni_n_1">Pickled pepperoni \n 1$</string>
+    <string name="champignons_n_1">Champignons \n 1$</string>
+    <string name="size_of_the_pizza">Size of the pizza</string>
+    <string name="_30_cm_6">30 cm - 6$</string>
+    <string name="_40_cm_10">40 cm - 10$</string>
+    <string name="_50_cm_15">50 cm - 15$</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pizza_order">Pizza Order</string>
+    <string name="pizza_logo">Pizza logo</string>
+    <string name="ok">OK</string>
+    <string name="total">Total:</string>
+    <string name="total_sum">Your order has been successfully placed!</string>
+</resources>
